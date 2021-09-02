@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-A-Sketch | The Odin Project</title>
+    <style>
+        body, body * {
+            margin: 0;
+            padding: 0;
+        }
+        #container {
+            width: 100;
+            display: grid;
+            grid-template-columns: repeat(16, auto);
+            grid-template-rows: repeat(16, auto);
+        }
+    </style>
+</head>
+<body>
+    <h1>Etch-A-Sketch from The Odin Project</h1>
+    <button id="clear">Clear</button><span id="gridSize"> Grid Size: 16 x 16</span>
+    <div id="container"></div>
+    <script src="script.js"></script>
+</body>
+</html>
