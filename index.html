@@ -20,7 +20,16 @@
 </head>
 <body>
     <h1>Etch-A-Sketch from The Odin Project</h1>
-    <button id="clear">Clear</button><span id="gridSize"> Grid Size: 16 x 16</span>
+    <button id="clear">Clear</button>
+    <span id="gridSize"> Grid Size: 16 x 16</span>
+    <div style="display: inline;">
+        <input type="radio" id="gray" name="color" value="gray" checked>
+        <label for="gray">Gray</label>
+        <input type="radio" id="random" name="color" value="random">
+        <label for="random">Random Colors</label>
+        <input type="radio" id="shade" name="color" value="shade">
+        <label for="shade">Shading Black</label>
+    </div>
     <div id="container"></div>
     <script src="script.js"></script>
 </body>
